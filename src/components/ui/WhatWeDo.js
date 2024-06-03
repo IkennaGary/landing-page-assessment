@@ -87,6 +87,11 @@ const Header = styled.section`
     & p {
       font-size: 14px;
       font-family: switzerMedium;
+
+      @media (max-width: 480px) {
+        font-size: 12px;
+        text-align: center;
+      }
     }
   }
 `;
@@ -115,7 +120,9 @@ const Items = styled.section`
     width: 30%;
 
     @media (max-width: 480px) {
-      width: 200px;
+      width: 100px;
+      font-size: 13px;
+      line-height: 18px;
     }
   }
 `;

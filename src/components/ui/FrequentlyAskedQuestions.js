@@ -155,6 +155,15 @@ const Table = styled.table`
     flex: 0 0 auto;
     text-align: center;
     width: 200px;
+
+    @media (max-width: 480px) {
+      width: 150px;
+      font-size: 13px;
+      padding: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 
   tbody tr td:last-child {

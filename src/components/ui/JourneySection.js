@@ -1,9 +1,9 @@
 import styled from "styled-components";
 import SkewedContainer from "sc-react";
-import Button from "./Button";
-import UsersJourney from "../assets/svg/users-jouney.svg";
-import UsersJourney2 from "../assets/svg/user-journey2.svg";
-import UsersJourney3 from "../assets/svg/user-journey3.svg";
+import Button from "../Button";
+import UsersJourney from "../../assets/svg/users-jouney.svg";
+import UsersJourney2 from "../../assets/svg/user-journey2.svg";
+import UsersJourney3 from "../../assets/svg/user-journey3.svg";
 
 const JourneySection = () => {
   return (
@@ -100,7 +100,7 @@ const Main = styled.section`
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 100px;
+  gap: 70px;
   align-items: center;
 
   & h1 {

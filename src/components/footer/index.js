@@ -3,7 +3,7 @@ import styled from "styled-components";
 import SkewedContainer from "sc-react";
 import GetStarted from "./GetStarted";
 import { Link } from "react-router-dom";
-import LogoIcon from "../../../assets/svg/logo.svg";
+import LogoIcon from "../../assets/svg/logo.svg";
 
 const links = [
   {
@@ -103,6 +103,7 @@ const MainContainer = styled.footer`
   @media (max-width: 976px) {
     flex-direction: column;
     gap: 50px;
+    padding-bottom: 100px;
   }
 `;
 const LeftSection = styled.section`

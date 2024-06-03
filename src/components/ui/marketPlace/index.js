@@ -52,6 +52,7 @@ const Head = styled.section`
   padding-top: 50px;
 
   & h1 {
+    font-size: 40px;
     line-height: 1.2;
     font-family: "switzerBold";
     font-weight: 900;

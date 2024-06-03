@@ -1,6 +1,6 @@
 import styled from "styled-components";
-import Button from "../../Button";
-import BackgroundImage from "../../../assets/svg/skew-inner-footer.svg";
+import Button from "../Button";
+import BackgroundImage from "../../assets/svg/skew-inner-footer.svg";
 
 const GetStarted = () => {
   return (

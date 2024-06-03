@@ -5,10 +5,10 @@ import WhatWeDo from "../components/ui/WhatWeDo";
 import MarketPlace from "../components/ui/marketPlace";
 import HowItWorks from "../components/ui/HowItWorks";
 import EnsureSection from "../components/ui/EnsureSection";
-import JourneySection from "../components/JourneySection";
+import JourneySection from "../components/ui/JourneySection";
 import WhyChooseZwilt from "../components/ui/whychoosezwilt";
 import FrequentlyAskedQuestions from "../components/ui/FrequentlyAskedQuestions";
-import Footer from "../components/ui/footer";
+import Footer from "../components/footer";
 import styled from "styled-components";
 
 const HomePage = () => {

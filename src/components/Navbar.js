@@ -96,7 +96,7 @@ const Navbar = () => {
 
 const Header = styled.header`
   position: fixed;
-  top: 30px;
+  top: 20px;
   z-index: 100;
   // max-width: 1150px;
   width: 100%;

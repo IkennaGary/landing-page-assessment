@@ -87,7 +87,7 @@ const MarketDetails = () => {
               {iTData.map(({ img, title }, i) => (
                 <Thumbnail key={i}>
                   <div className="img_container">
-                    <img src={img} />
+                    <img src={img} alt="thumb-img" />
                   </div>
                   {title.split(" ").map((word, index) => (
                     <p key={index}>{word}</p>
@@ -125,7 +125,7 @@ const MarketDetails = () => {
               {creativeData.map(({ img, title }, i) => (
                 <Thumbnail key={i}>
                   <div className="img_container">
-                    <img src={img} />
+                    <img src={img} alt="thumb-img" />
                   </div>
                   {title.split(" ").map((word, index) => (
                     <p key={index}>{word}</p>

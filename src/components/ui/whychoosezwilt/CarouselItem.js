@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import CarouselImg1 from "../../../assets/images/carousel-img1.png";
 
 const CarouselItem = ({ data }) => {
   const { title, list, image, color } = data;

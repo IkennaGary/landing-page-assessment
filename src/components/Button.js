@@ -1,5 +1,4 @@
 import styled, { css } from "styled-components";
-import ArrowIcon from "../assets/svg/arrow.svg";
 
 const Button = ({ bg, color, direction = "right" }) => {
   return (

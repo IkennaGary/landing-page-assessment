@@ -148,6 +148,10 @@ const FadingText = styled.section`
     ` -webkit-linear-gradient(top, ${color}, transparent)`};
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+
+  @media (max-width: 480px) {
+    font-size: 60px;
+  }
 `;
 const TextsContainer = styled.section`
   margin-top: 30px;

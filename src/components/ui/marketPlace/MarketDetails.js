@@ -226,7 +226,7 @@ const ExploreContainer = styled.section`
     @media (max-width: 480px) {
       flex-wrap: wrap;
       gap: 30px;
-      justify-content: center;
+      justify-content: space-between;
     }
 
     & button {
